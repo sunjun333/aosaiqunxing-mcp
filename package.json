@@ -1,0 +1,16 @@
+{
+  "name": "aosaiqunxing-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Open-source MCP bridge and Agent Skill for Chinese high-school Olympiad data across mathematics, physics, chemistry, biology and informatics",
+  "keywords": ["mcp", "agent-skill", "academic-olympiad", "chinese-olympiad", "competition-data", "aosaiqunxing"],
+  "repository": {"type": "git", "url": "https://github.com/sunjun333/aosaiqunxing-mcp.git"},
+  "homepage": "https://aosaiqunxing.com",
+  "bin": {"aosaiqunxing-mcp": "bin/aosaiqunxing-mcp.mjs"},
+  "engines": {"node": ">=20"},
+  "scripts": {"test": "node --test test/*.test.mjs"},
+  "dependencies": {"@modelcontextprotocol/sdk": "1.30.1"}
+}
+
+
